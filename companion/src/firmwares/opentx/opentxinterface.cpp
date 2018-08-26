@@ -1114,6 +1114,7 @@ void addOpenTxLcdOptions(OpenTxFirmware * firmware)
     {"ERC12864FSF", QCoreApplication::translate("Firmware", "ERC12864FSF LCD")},
     {"ST7920",      QCoreApplication::translate("Firmware", "ST7920 LCD")},
     {"KS108",       QCoreApplication::translate("Firmware", "KS108 LCD")},
+    {"JLX12864G",   QCoreApplication::translate("Firmware", "ST7565R LCD or compatible")},
     {NULL}
   };
   firmware->addOptions(lcd_options);

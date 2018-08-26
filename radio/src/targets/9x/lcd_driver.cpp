@@ -33,6 +33,9 @@ volatile uint8_t LcdLock;
 #include "targets/9x/lcd_ks108_driver.cpp"
 #elif defined(LCD_ST7920)
 #include "targets/9x/lcd_st7920_driver.cpp"
+#elif defined(LCD_JLX12864G)
+#include "targets/9x/lcd_jlx12864g_driver.cpp"
 #else
+//#include "targets/9x/lcd_jlx12864g_driver.cpp"
 #include "targets/9x/lcd_default_driver.cpp"
 #endif

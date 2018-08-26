@@ -165,6 +165,7 @@ options_mega2560 = {
     "DSM2": ("DSM2", "SERIAL", "NO"),
     "DSM2PPM": ("DSM2", "PPM", "NO"),
     "ST7565R": ("LCD", "ST7565R", None),
+    "JLX12864G": ("LCD", "JLX12864G", None),
     "ERC12864FSF": ("LCD", "ERC12864FSF", None),
     "ST7920": ("LCD", "ST7920", None),
     "potscroll": ("NAVIGATION", "POTS", "NO"),
